@@ -1,0 +1,21 @@
+18:15:35.618  E  FATAL EXCEPTION: main
+                 Process: com.ichi2.anki.debug, PID: 5018
+                 java.lang.IllegalStateException: Invalid MediaPlayerState PREPARING
+                    at com.ichi2.anki.multimediacard.MediaPlayer.start(MediaPlayer.kt:173)
+                    at com.ichi2.audio.AudioRecordingController.playPausePlayer(AudioRecordingController.kt:202)
+                    at com.ichi2.audio.AudioRecordingController.createUI$lambda$3(AudioRecordingController.kt:161)
+                    at com.ichi2.audio.AudioRecordingController.$r8$lambda$uk0DSNfoc36glpwpxSv-TwPPRkI(Unknown Source:0)
+                    at com.ichi2.audio.AudioRecordingController$$ExternalSyntheticLambda3.onClick(Unknown Source:2)
+                    at android.view.View.performClick(View.java:7506)
+                    at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1213)
+                    at android.view.View.performClickInternal(View.java:7483)
+                    at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+                    at android.view.View$PerformClick.run(View.java:29334)
+                    at android.os.Handler.handleCallback(Handler.java:942)
+                    at android.os.Handler.dispatchMessage(Handler.java:99)
+                    at android.os.Looper.loopOnce(Looper.java:201)
+                    at android.os.Looper.loop(Looper.java:288)
+                    at android.app.ActivityThread.main(ActivityThread.java:7872)
+                    at java.lang.reflect.Method.invoke(Native Method)
+                    at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
